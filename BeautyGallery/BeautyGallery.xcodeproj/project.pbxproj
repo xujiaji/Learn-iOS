@@ -12,6 +12,7 @@
 		401060B520FCC73700CF5310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401060B320FCC73700CF5310 /* Main.storyboard */; };
 		401060C120FCCC6E00CF5310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401060B620FCC73800CF5310 /* Assets.xcassets */; };
 		401060C320FCD2C500CF5310 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401060C220FCD2C500CF5310 /* ViewControllerExtension.swift */; };
+		404A52FC20FD94D40087A0D8 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A52FB20FD94D40087A0D8 /* KoreanViewController.swift */; };
 		408DB64D20FCD6A60022F89A /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408DB64C20FCD6A60022F89A /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		401060B620FCC73800CF5310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401060BB20FCC73800CF5310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		401060C220FCD2C500CF5310 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		404A52FB20FD94D40087A0D8 /* KoreanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 		408DB64C20FCD6A60022F89A /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				401060B620FCC73800CF5310 /* Assets.xcassets */,
 				401060BB20FCC73800CF5310 /* Info.plist */,
 				408DB64C20FCD6A60022F89A /* GalleryViewController.swift */,
+				404A52FB20FD94D40087A0D8 /* KoreanViewController.swift */,
 			);
 			path = BeautyGallery;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				401060B220FCC73700CF5310 /* ViewController.swift in Sources */,
+				404A52FC20FD94D40087A0D8 /* KoreanViewController.swift in Sources */,
 				408DB64D20FCD6A60022F89A /* GalleryViewController.swift in Sources */,
 				401060B020FCC73700CF5310 /* AppDelegate.swift in Sources */,
 				401060C320FCD2C500CF5310 /* ViewControllerExtension.swift in Sources */,
