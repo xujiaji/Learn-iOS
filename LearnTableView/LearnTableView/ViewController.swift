@@ -43,7 +43,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // 初始化刷新
         refreshControl.backgroundColor = UIColor.blue
-        refreshControl.attributedTitle = NSAttributedString(string: "刷新一下：\(NSData())", attributes: [:])
+        refreshControl.attributedTitle = NSAttributedString(string: "刷新一下：\(Data())", attributes: [NSAttributedStringKey.foregroundColor: UIColor.white])
         refreshControl.tintColor = UIColor.green // 加载菊花颜色
         refreshControl.tintAdjustmentMode = .dimmed // 色彩调整模式
         refreshControl.addTarget(self, action: #selector(addcount), for: .valueChanged)
